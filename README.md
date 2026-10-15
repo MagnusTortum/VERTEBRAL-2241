@@ -2,13 +2,11 @@
 
 A post-apocalyptic town builder set in Baja California, Mexico.
 
-Everything is procedural. Every house, every yard, every backstreet and every bit of clutter comes out different, so nothing ever repeats. Then you can change any of it: materials, colours, shape, roofs, what’s lying around.
+Everything is procedural. Every house, every yard, every backstreet and every bit of clutter comes out different, so nothing ever repeats. Then you can change any of it: materials, colours, shape, roofs and more.
 
-Most city builders leave you with dead space. You spend hours filling in empty corners, and it still looks like a diorama. VERTEBRAL 2241 doesn’t leave dead space. Buildings join up, clutter spills onto the streets, weeds and shrubs grow into the cracks, and the place fills itself in as you build.
+And the world responds to the way you build. The bigger and busier your town gets, the more stuff shows up: vendors, carts, laundry, worn paths, people in the market.
 
-The world reacts to your town. The busier it gets, the more life shows up: vendors, carts, laundry, worn paths, crowds in the market. Farms and trade keep it alive, because everything here hangs off the old highway, the Spine.
-
-And the world responds to the way you build. The bigger and busier your town gets, the more stuff shows up: vendors, carts, laundry, worn paths, people in the market. It all hangs on the trade route, the old highway, the Spine. 
+One thing that always bugged me about city building games is the dead spaces. You end up with these empty gaps you have to fill in manually, and it takes so much time. VERTEBRAL 2241 is built around the idea that you never create those dead spaces in the first place (unless you want to). Buildings connect, clutter spills onto the streets, vegetation grows into the little cracks between everything. Nothing looks empty.
 
 Build for twenty minutes, zoom out, and you’ll see an actual place. The noon heat shimmers off the asphalt, a dog barks somewhere in the outskirts, and the rich side of town sits behind its stone streets while the shacks crowd the edges.
 
