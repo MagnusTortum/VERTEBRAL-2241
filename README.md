@@ -1,4 +1,4 @@
-# VERTEBRAL
+# VERTEBRAL 2241
 
 A procedural city painter set in post-post-apocalyptic Baja California, Mexico (2241). It has textured low-poly geometry, baked lighting, and time-of-day presets. You can open `index.html` straight from disk; it doesn't need a server.
 
