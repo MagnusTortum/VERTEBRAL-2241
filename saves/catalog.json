@@ -1,0 +1,1135 @@
+{
+ "props": [
+  {
+   "type": "street_lamp",
+   "at": [
+    -66,
+    100
+   ],
+   "light": {
+    "on": true
+   }
+  },
+  {
+   "type": "neon_sign",
+   "at": [
+    -44,
+    100
+   ],
+   "text": "CANTINA",
+   "color": "pink",
+   "light": {
+    "on": true
+   }
+  },
+  {
+   "type": "spotlight_tower",
+   "at": [
+    -22,
+    100
+   ],
+   "light": {
+    "on": true
+   }
+  },
+  {
+   "type": "lantern",
+   "at": [
+    0,
+    100
+   ],
+   "essential": true
+  },
+  {
+   "type": "torch",
+   "at": [
+    20,
+    100
+   ]
+  },
+  {
+   "type": "torch",
+   "at": [
+    24,
+    100
+   ]
+  },
+  {
+   "type": "firepit",
+   "at": [
+    44,
+    100
+   ]
+  },
+  {
+   "type": "vending_machine",
+   "at": [
+    66,
+    100
+   ],
+   "light": {
+    "on": true
+   }
+  },
+  {
+   "type": "tent_aframe",
+   "at": [
+    -76,
+    124
+   ],
+   "rot": 0,
+   "name": "tent aframe"
+  },
+  {
+   "type": "tent_wall",
+   "at": [
+    -67,
+    124
+   ],
+   "rot": 0,
+   "name": "tent wall"
+  },
+  {
+   "type": "tent_bell",
+   "at": [
+    -58,
+    124
+   ],
+   "rot": 0,
+   "name": "tent bell"
+  },
+  {
+   "type": "lean_to",
+   "at": [
+    -49,
+    124
+   ],
+   "rot": 0,
+   "name": "lean to"
+  },
+  {
+   "type": "wagon",
+   "at": [
+    -40,
+    124
+   ],
+   "rot": 0,
+   "name": "wagon"
+  },
+  {
+   "type": "stall",
+   "at": [
+    -31,
+    124
+   ],
+   "rot": 0,
+   "name": "stall"
+  },
+  {
+   "type": "tarp_stall",
+   "at": [
+    -22,
+    124
+   ],
+   "rot": 0,
+   "name": "tarp stall"
+  },
+  {
+   "type": "cart_shop",
+   "at": [
+    -13,
+    124
+   ],
+   "rot": 0,
+   "name": "cart shop"
+  },
+  {
+   "type": "shade_cloth",
+   "at": [
+    -4,
+    124
+   ],
+   "rot": 0,
+   "name": "shade cloth"
+  },
+  {
+   "type": "hitching_rail",
+   "at": [
+    5,
+    124
+   ],
+   "rot": 0,
+   "name": "hitching rail"
+  },
+  {
+   "type": "meat_rack",
+   "at": [
+    14,
+    124
+   ],
+   "rot": 0,
+   "name": "meat rack"
+  },
+  {
+   "type": "hide_frame",
+   "at": [
+    23,
+    124
+   ],
+   "rot": 0,
+   "name": "hide frame"
+  },
+  {
+   "type": "forge",
+   "at": [
+    32,
+    124
+   ],
+   "rot": 0,
+   "name": "forge"
+  },
+  {
+   "type": "tan_pit",
+   "at": [
+    41,
+    124
+   ],
+   "rot": 0,
+   "name": "tan pit"
+  },
+  {
+   "type": "kiln",
+   "at": [
+    50,
+    124
+   ],
+   "rot": 0,
+   "name": "kiln"
+  },
+  {
+   "type": "chicken_coop",
+   "at": [
+    59,
+    124
+   ],
+   "rot": 0,
+   "name": "chicken coop"
+  },
+  {
+   "type": "planter",
+   "at": [
+    68,
+    124
+   ],
+   "rot": 0,
+   "name": "planter"
+  },
+  {
+   "type": "lumber",
+   "at": [
+    77,
+    124
+   ],
+   "rot": 0,
+   "name": "lumber"
+  },
+  {
+   "type": "jersey_barrier",
+   "at": [
+    -76,
+    136
+   ],
+   "rot": 0,
+   "name": "jersey barrier"
+  },
+  {
+   "type": "road_barrier",
+   "at": [
+    -66,
+    136
+   ],
+   "rot": 0,
+   "name": "road barrier"
+  },
+  {
+   "type": "cone",
+   "at": [
+    -56,
+    136
+   ],
+   "rot": 0,
+   "name": "cone"
+  },
+  {
+   "type": "bollard",
+   "at": [
+    -46,
+    136
+   ],
+   "rot": 0,
+   "name": "bollard"
+  },
+  {
+   "type": "pot_large",
+   "at": [
+    -36,
+    136
+   ],
+   "rot": 0,
+   "name": "pot large"
+  },
+  {
+   "type": "potted_plant",
+   "at": [
+    -26,
+    136
+   ],
+   "rot": 0,
+   "name": "potted plant"
+  },
+  {
+   "type": "hedge",
+   "at": [
+    -16,
+    136
+   ],
+   "rot": 0,
+   "name": "hedge"
+  },
+  {
+   "type": "hedge_dead",
+   "at": [
+    -6,
+    136
+   ],
+   "rot": 0,
+   "name": "hedge dead"
+  },
+  {
+   "type": "watchtower",
+   "at": [
+    4,
+    136
+   ],
+   "rot": 0,
+   "name": "watchtower"
+  },
+  {
+   "type": "guard_shack",
+   "at": [
+    14,
+    136
+   ],
+   "rot": 0,
+   "name": "guard shack"
+  },
+  {
+   "type": "barrier",
+   "at": [
+    24,
+    136
+   ],
+   "rot": 0,
+   "name": "barrier"
+  },
+  {
+   "type": "sandbags",
+   "at": [
+    34,
+    136
+   ],
+   "rot": 0,
+   "name": "sandbags"
+  },
+  {
+   "type": "tank_trap",
+   "at": [
+    44,
+    136
+   ],
+   "rot": 0,
+   "name": "tank trap"
+  },
+  {
+   "type": "wire_coil",
+   "at": [
+    54,
+    136
+   ],
+   "rot": 0,
+   "name": "wire coil"
+  }
+ ],
+ "camps": [
+  {
+   "id": "cat-caravan",
+   "type": "caravan",
+   "at": [
+    -50,
+    150
+   ],
+   "rot": 90,
+   "radius": 13
+  },
+  {
+   "id": "cat-trav",
+   "type": "travellers",
+   "at": [
+    0,
+    150
+   ],
+   "radius": 7
+  }
+ ],
+ "markets": [
+  {
+   "id": "cat-market",
+   "at": [
+    50,
+    150
+   ],
+   "r": 12
+  }
+ ],
+ "settlement": {
+  "tl": 5,
+  "wealth": "average",
+  "appearance": 0,
+  "power": "some"
+ },
+ "name": "Generator catalog",
+ "region": "test sheet",
+ "seed": 7,
+ "size": [
+  190,
+  330
+ ],
+ "biome": "desert",
+ "mode": "test",
+ "description": "Rows: concrete office / block shop through every origin · new builds by material · shapes & roofs · free rotations · finishes · light props · temporary structures & trade props · caravan camp, travellers' camp, market.",
+ "terrain": {
+  "relief": 0.4
+ },
+ "structures": [
+  {
+   "id": "office-new",
+   "name": "new",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "new",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -66,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "office-maintained",
+   "name": "maintained",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "maintained",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -44,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "office-repurposed",
+   "name": "repurposed",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "repurposed",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -22,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "office-rebuilt",
+   "name": "rebuilt",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "rebuilt",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    0,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "office-built_on_ruin",
+   "name": "built on ruin",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "built_on_ruin",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    22,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "office-ruin",
+   "name": "ruin",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "ruin",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    44,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "office-stripped",
+   "name": "stripped",
+   "kind": "office",
+   "material": "concrete",
+   "origin": "stripped",
+   "floors": 2,
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    66,
+    -60
+   ],
+   "rot": 0
+  },
+  {
+   "id": "shop-new",
+   "kind": "shop",
+   "material": "block",
+   "origin": "new",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    -66,
+    -36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "shop-maintained",
+   "kind": "workshop",
+   "material": "block",
+   "origin": "maintained",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    -44,
+    -36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "shop-repurposed",
+   "kind": "shop",
+   "material": "block",
+   "origin": "repurposed",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    -22,
+    -36
+   ],
+   "rot": 0,
+   "sign": "LLANTERA"
+  },
+  {
+   "id": "shop-rebuilt",
+   "kind": "workshop",
+   "material": "block",
+   "origin": "rebuilt",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    0,
+    -36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "shop-built_on_ruin",
+   "kind": "shop",
+   "material": "block",
+   "origin": "built_on_ruin",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    22,
+    -36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "shop-ruin",
+   "kind": "workshop",
+   "material": "block",
+   "origin": "ruin",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    44,
+    -36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "shop-stripped",
+   "kind": "shop",
+   "material": "block",
+   "origin": "stripped",
+   "size": [
+    11,
+    9
+   ],
+   "at": [
+    66,
+    -36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "new-adobe-house",
+   "name": "adobe house",
+   "kind": "house",
+   "material": "adobe",
+   "shape": "rect",
+   "origin": "new",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -66,
+    -10
+   ],
+   "rot": 0,
+   "porch": false
+  },
+  {
+   "id": "new-adobe-house",
+   "name": "adobe house",
+   "kind": "house",
+   "material": "adobe",
+   "shape": "L",
+   "origin": "new",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -44,
+    -10
+   ],
+   "rot": 0,
+   "porch": false
+  },
+  {
+   "id": "new-stone-house",
+   "name": "stone house",
+   "kind": "house",
+   "material": "stone",
+   "shape": "rect",
+   "origin": "new",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -22,
+    -10
+   ],
+   "rot": 0,
+   "porch": false
+  },
+  {
+   "id": "new-plaster-cantina",
+   "name": "plaster cantina",
+   "kind": "cantina",
+   "material": "plaster",
+   "shape": "rect",
+   "origin": "new",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    0,
+    -10
+   ],
+   "rot": 0,
+   "porch": true
+  },
+  {
+   "id": "new-brick-hall",
+   "name": "brick hall",
+   "kind": "hall",
+   "material": "brick",
+   "shape": "rect",
+   "origin": "new",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    22,
+    -10
+   ],
+   "rot": 0,
+   "porch": false
+  },
+  {
+   "id": "new-timber-barn",
+   "name": "timber barn",
+   "kind": "barn",
+   "material": "timber",
+   "shape": "rect",
+   "origin": "new",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    44,
+    -10
+   ],
+   "rot": 0,
+   "porch": false
+  },
+  {
+   "id": "new-metal-shed",
+   "name": "metal shed",
+   "kind": "shed",
+   "material": "metal",
+   "shape": "rect",
+   "origin": "new",
+   "size": [
+    5,
+    4
+   ],
+   "at": [
+    66,
+    -10
+   ],
+   "rot": 0,
+   "porch": false
+  },
+  {
+   "id": "courtyard",
+   "name": "adobe courtyard",
+   "kind": "house",
+   "shape": "courtyard",
+   "material": "adobe",
+   "size": [
+    18,
+    16
+   ],
+   "at": [
+    -66,
+    20
+   ],
+   "rot": 0,
+   "extras": [
+    "tinaco"
+   ]
+  },
+  {
+   "id": "u-plaster",
+   "name": "U · tile gable",
+   "kind": "house",
+   "shape": "U",
+   "material": "plaster",
+   "roof": "gable",
+   "roofMat": "tile",
+   "size": [
+    16,
+    12
+   ],
+   "at": [
+    -44,
+    20
+   ],
+   "rot": 0
+  },
+  {
+   "id": "hip",
+   "name": "hip · tile",
+   "kind": "house",
+   "material": "stone",
+   "roof": "hip",
+   "roofMat": "tile",
+   "size": [
+    12,
+    9
+   ],
+   "at": [
+    -22,
+    20
+   ],
+   "rot": 0
+  },
+  {
+   "id": "palapa",
+   "name": "palapa",
+   "kind": "house",
+   "material": "adobe",
+   "roof": "palapa",
+   "roofMat": "thatch",
+   "size": [
+    8,
+    7
+   ],
+   "at": [
+    0,
+    20
+   ],
+   "rot": 0
+  },
+  {
+   "id": "chapel",
+   "name": "chapel",
+   "kind": "chapel",
+   "material": "adobe",
+   "origin": "maintained",
+   "size": [
+    9,
+    18
+   ],
+   "at": [
+    22,
+    20
+   ],
+   "rot": 0
+  },
+  {
+   "id": "warehouse",
+   "name": "warehouse",
+   "kind": "warehouse",
+   "material": "block",
+   "origin": "repurposed",
+   "size": [
+    20,
+    13
+   ],
+   "at": [
+    46,
+    20
+   ],
+   "rot": 0
+  },
+  {
+   "id": "canopy",
+   "name": "canopy (sagging)",
+   "kind": "canopy",
+   "size": [
+    15,
+    9
+   ],
+   "at": [
+    66,
+    20
+   ],
+   "rot": 0,
+   "sag": {
+    "corner": 2,
+    "drop": 1.6
+   }
+  },
+  {
+   "id": "fin-0",
+   "name": "none",
+   "kind": "house",
+   "material": "adobe",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    -66,
+    78
+   ],
+   "rot": 0,
+   "finish": "none"
+  },
+  {
+   "id": "fin-1",
+   "name": "wash",
+   "kind": "house",
+   "material": "adobe",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    -44,
+    78
+   ],
+   "rot": 0,
+   "finish": "wash"
+  },
+  {
+   "id": "fin-2",
+   "name": "painted",
+   "kind": "house",
+   "material": "plaster",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    -22,
+    78
+   ],
+   "rot": 0,
+   "finish": "painted"
+  },
+  {
+   "id": "fin-3",
+   "name": "decorated",
+   "kind": "house",
+   "material": "plaster",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    0,
+    78
+   ],
+   "rot": 0,
+   "finish": "decorated"
+  },
+  {
+   "id": "fin-4",
+   "name": "showpiece",
+   "kind": "cantina",
+   "material": "adobe",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    22,
+    78
+   ],
+   "rot": 0,
+   "finish": "showpiece"
+  },
+  {
+   "id": "fin-5",
+   "name": "showpiece",
+   "kind": "cantina",
+   "material": "plaster",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    44,
+    78
+   ],
+   "rot": 0,
+   "finish": "showpiece"
+  },
+  {
+   "id": "fin-6",
+   "name": "decorated",
+   "kind": "cantina",
+   "material": "stone",
+   "origin": "new",
+   "size": [
+    13,
+    9
+   ],
+   "at": [
+    66,
+    78
+   ],
+   "rot": 0,
+   "finish": "decorated"
+  },
+  {
+   "id": "rot-0",
+   "kind": "house",
+   "material": "plaster",
+   "origin": "rebuilt",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    -66,
+    50
+   ],
+   "rot": -30,
+   "extras": []
+  },
+  {
+   "id": "rot-1",
+   "kind": "house",
+   "material": "adobe",
+   "origin": "new",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    -44,
+    50
+   ],
+   "rot": -17,
+   "extras": [
+    "tinaco"
+   ]
+  },
+  {
+   "id": "rot-2",
+   "kind": "house",
+   "material": "plaster",
+   "origin": "new",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    -22,
+    50
+   ],
+   "rot": -4,
+   "extras": []
+  },
+  {
+   "id": "rot-3",
+   "kind": "house",
+   "material": "adobe",
+   "origin": "rebuilt",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    0,
+    50
+   ],
+   "rot": 9,
+   "extras": [
+    "tinaco"
+   ]
+  },
+  {
+   "id": "rot-4",
+   "kind": "house",
+   "material": "plaster",
+   "origin": "new",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    22,
+    50
+   ],
+   "rot": 22,
+   "extras": []
+  },
+  {
+   "id": "rot-5",
+   "kind": "house",
+   "material": "adobe",
+   "origin": "new",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    44,
+    50
+   ],
+   "rot": 35,
+   "extras": [
+    "tinaco"
+   ]
+  },
+  {
+   "id": "rot-6",
+   "kind": "house",
+   "material": "plaster",
+   "origin": "rebuilt",
+   "size": [
+    9,
+    7
+   ],
+   "at": [
+    66,
+    50
+   ],
+   "rot": 48,
+   "extras": []
+  }
+ ],
+ "vegetation": {
+  "density": 0.12
+ },
+ "view": {
+  "target": [
+   0,
+   0
+  ],
+  "zoom": 1.3,
+  "az": -30
+ }
+}

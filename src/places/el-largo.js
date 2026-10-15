@@ -1,0 +1,163 @@
+// El Largo — Soto family waystation on the Spine. Source: baja_gazetteer_v3 + world/cities/el-largo.md + PROLOGUE.
+// Coordinates in metres. North = -Z, east = +X. Compound items use the 'compound' frame, which is
+// aligned to the Spine, so the house, walls, yard and corral share one grain with the road.
+export default {
+  name: 'El Largo',
+  region: 'The Spine (MEX-1), 32 mi south of San Quintín',
+  seed: 2241,
+  size: [220, 220],
+  biome: 'coastal_desert',
+  mode: 'hybrid',
+  settlement: { tl: 5, wealth: 'struggling', appearance: 0, power: 'scarce' },
+  description: 'Soto family waystation, ~20 people. Coastal plain, 3 km from the Pacific. Sign: AGUA · DESCANSO · REPARACIONES. The well is the asset.',
+  context: 'Fallout Baja California, 2241. Classic Fallout lore only (Fallout 1, 2, New Vegas). El Largo: Soto family waystation on the Spine (pre-war MEX-1), coastal plain 3 km from the Pacific, pop ~20, Struggling, TL5, clan government (the Sotos). The well is the asset. Family in debt to Gordillo, a San Quintín merchant (60 days). GURPS 4e.',
+  view: { target: [10, -4], zoom: 2.6, az: -35 },
+  frames: { compound: { origin: [16, -8], road: 'spine' } },
+
+  terrain: {
+    relief: 1.4,
+    scale: 120,
+    features: [
+      { type: 'tilt', dir: 90, amount: 1.1 },
+      { type: 'hill', at: [92, -88], radius: 40, height: 5 },
+      { type: 'hill', at: [-95, -40], radius: 30, height: 2.5 },
+      { type: 'arroyo', path: [[112, 36], [80, 46], [45, 56], [10, 60], [-12, 63], [-45, 68], [-80, 64], [-112, 70]], width: 12, depth: 1.8 },
+    ],
+  },
+
+  roads: [
+    { id: 'spine', name: 'The Spine (MEX-1)', type: 'highway', width: 9, condition: 0.6, path: [[-34, -112], [-24, -60], [-15, -12], [-12, 30], [-18, 75], [-27, 112]] },
+    { id: 'coast-track', type: 'track', path: [[-14, -4], [-40, -2], [-75, 4], [-112, 10]] },
+    { id: 'east-track', type: 'track', frame: 'compound', path: [[52, 20], [57, 31], [80, 37], [100, 45]] },
+    // gate track: off the Spine, across the forecourt, through the compound gate to the house
+    { id: 'gate-track', type: 'track', frame: 'compound', path: [[-28, -1], [-12, -1], [2, -1], [9, -4], [14, -9]] },
+  ],
+
+  structures: [
+    {
+      id: 'casa', name: 'Casa Soto', kind: 'house', shape: 'courtyard', size: [22, 18], frame: 'compound', at: [26, -16], rot: -90,
+      material: 'adobe', origin: 'new', floors: 1, porch: { roof: 'thatch', depth: 2.6 }, extras: ['tinaco', 'chimney', 'stairs'],
+      stats: {
+        owner: 'Rodrigo Soto, head of the household',
+        occupants: ['Rodrigo Soto — head of household', 'Petra Soto — grandmother', 'Rafael "Rafa" Soto — youngest son (away)', 'Soto extended family — most of El Largo\'s ~20'],
+        condition: 'Lived-in, well kept',
+        gm_notes: ['Family home; clan government (the Sotos), CR 2', 'The Gordillo debt: sixty days left'],
+      },
+    },
+    {
+      id: 'workshop', name: 'Taller (Workshop)', kind: 'workshop', size: [14, 10], frame: 'compound', at: [-8, -18], rot: -90,
+      material: 'block', origin: 'repurposed', floors: 1, extras: [{ type: 'solar', count: 2 }, 'antenna'],
+      sign: { text: 'REPARACIONES', style: 'painted' },
+      stats: {
+        owner: 'Soto family (Rodrigo)',
+        occupants: ['Whoever of the family is on repair duty'],
+        condition: 'Pre-war block shell, patched and re-roofed',
+        gm_notes: ['Repairs done by the family — skill levels not established yet', 'Pre-war engine block; truck chassis ~70% toward running', '2 working solar panels on the roof run the vending machine'],
+      },
+    },
+    {
+      id: 'shelter', name: "Travelers' shelter", kind: 'shelter', size: [16, 6.5], frame: 'compound', at: [-9, 16], rot: -90,
+      material: 'adobe', oldMaterial: 'concrete', origin: 'rebuilt', floors: 1, roof: 'shed', roofMat: 'corrugated',
+      porch: { roof: 'latilla', depth: 2.4 }, sign: { text: 'DESCANSO', style: 'painted' },
+      stats: {
+        owner: 'Soto family',
+        occupants: ['Travelers on the Spine'],
+        condition: 'Adobe on pre-war concrete footings; sound',
+        gm_notes: ['Lodging price not set by the books — GM call', 'Water: free to travelers in need by family custom; caravans pay'],
+        stock: [
+          { item: "Traveler's Rations (1 meal)", price: '$2', ref: 'B288' },
+          { item: 'Bottle, Ceramic (1 qt)', price: '$3', ref: 'B288' },
+          { item: 'Canteen (1 qt)', price: '$11', ref: 'B288' },
+          { item: 'Blanket', price: '$18', ref: 'B288', notes: 'used' },
+          { item: 'Candle, Tallow', price: '$5', ref: 'B288' },
+          { item: 'Torch', price: '$3', ref: 'B288' },
+          { item: 'Lantern', price: '$22', ref: 'B288' },
+          { item: 'Oil, per pint', price: '$2', ref: 'B288' },
+          { item: 'Matches, box of 50 (TL6 ×2)', price: '$3.25', ref: 'B288' },
+        ],
+      },
+    },
+    { id: 'outhouse', kind: 'outhouse', size: [1.5, 1.6], frame: 'compound', at: [47, 35], rot: -90 },
+    { id: 'old-ruin', name: 'Pre-war ruin', kind: 'ruin', size: [11, 8], at: [-38, -30], face: 'spine', material: 'concrete', origin: 'stripped' },
+  ],
+
+  walls: [
+    {
+      id: 'compound-wall', type: 'stone_low', height: 1.1, condition: 0.85, closed: true, frame: 'compound',
+      path: [[2, -38], [52, -38], [52, 40], [2, 40]],
+      gates: [{ s: 219, width: 4, track: false }, { s: 108, width: 3.5 }],
+    },
+  ],
+
+  fields: [
+    { id: 'forecourt', type: 'yard', frame: 'compound', poly: [[-24, -36], [-1, -36], [-1, 34], [-24, 34]] },
+    {
+      id: 'garden', name: 'Kitchen garden', type: 'garden', crop: 'mixed', frame: 'compound', poly: [[14, 10], [40, 10], [40, 34], [14, 34]], fence: 'ocotillo', gates: [{ at: 0.9, width: 2 }],
+      stats: { owner: 'Soto family', occupants: [], condition: 'Tended', gm_notes: ['Corn, beans, squash, chili — feeds the household and lodgers'] },
+    },
+    {
+      id: 'corral', name: 'Corral', type: 'corral', frame: 'compound', poly: [[58, -6], [86, -6], [86, 24], [58, 24]], fence: 'pole', gates: [{ s: 91, width: 3.5 }], animals: { brahmin: 4 },
+      stats: { owner: 'Soto family', occupants: ['4 brahmin'], condition: 'Pole fence, a few rails down', gm_notes: ['Stabling for caravan brahmin'] },
+    },
+  ],
+
+  props: [
+    {
+      id: 'well', name: 'The Well', type: 'well', frame: 'compound', at: [-19, -7], rot: 0, pump: true, repair: true,
+      stats: {
+        owner: 'Soto family',
+        occupants: [],
+        condition: 'Casing repaired after the flood 18 months ago',
+        gm_notes: ['The repair was paid for with the Gordillo loan', 'Windlass + hand pump; stock tank fed by the windmill', 'Water is the asset: free to travelers in need, sold to caravans'],
+      },
+    },
+    { id: 'windmill', type: 'windmill', frame: 'compound', at: [-15.5, -10.5], rot: 180 },
+    { type: 'cistern', frame: 'compound', at: [-8.5, -6.8], radius: 2.1 },
+    { type: 'trough', frame: 'compound', at: [-16, 5], rot: 90, length: 3.2 },
+    { type: 'sign', frame: 'compound', at: [-23, -9], rot: -90, text: 'AGUA · DESCANSO · REPARACIONES', width: 6.6, height: 0.9, post: 1.8 },
+    { type: 'lantern', frame: 'compound', at: [0.6, 1.9], rot: -90, essential: true },
+    { id: 'vending', name: 'Anthropic vending machine', type: 'vending_machine', in: 'workshop', local: [-5.4, 5.6], y: 0, label: false, light: { on: true, essential: true },
+      stats: { owner: 'Rodrigo Soto', occupants: [], condition: 'Clean, lit, mostly empty', gm_notes: ['Rodrigo maintains it for spiritual reasons'] } },
+    { id: 'truck', name: 'Truck chassis', type: 'truck_chassis', label: false, in: 'workshop', local: [1.0, 8.6], y: 0, rot: 0, cab: true, missingWheels: true,
+      stats: { owner: 'Soto family', occupants: [], condition: '~70% toward running', gm_notes: ['Pre-war truck chassis'] } },
+    { type: 'engine_block', in: 'workshop', local: [4.6, 6.3], y: 0 },
+    { type: 'tires', in: 'workshop', local: [6.3, 5.8], y: 0, count: 4 },
+    { type: 'barrel', in: 'workshop', local: [-6.4, 7.4], y: 0, count: 3 },
+    { type: 'car_wreck', frame: 'compound', at: [-19, -31], rot: 35, hoodOpen: true, wheels: false },
+    { type: 'bench', in: 'shelter', local: [-3, 4.3], y: 0 },
+    { type: 'bench', in: 'shelter', local: [3.5, 4.3], y: 0 },
+    { type: 'cart', frame: 'compound', at: [-18, 26], rot: 160, load: true },
+    { type: 'brahmin', frame: 'compound', at: [-21, 30], rot: 170 },
+    { type: 'brahmin', frame: 'compound', at: [-15, 31], rot: 200 },
+    { type: 'firepit', frame: 'compound', at: [-19.5, 17] },
+    { type: 'ramada', frame: 'compound', at: [10, -2], rot: 0, width: 4.2, depth: 3.2 },
+    { type: 'table', frame: 'compound', at: [10, -2], rot: 0 },
+    { type: 'laundry_line', frame: 'compound', at: [44, 0], rot: 90, length: 6 },
+    { type: 'woodpile', frame: 'compound', at: [38, -30], rot: 0 },
+    { type: 'trough', frame: 'compound', at: [72, 4], rot: 90, length: 3 },
+    { type: 'haystack', frame: 'compound', at: [64, 30] },
+    { type: 'pot_large', frame: 'compound', at: [15.5, -5.8] }, { type: 'potted_plant', frame: 'compound', at: [15.6, -6.6] },
+    { type: 'pot_large', frame: 'compound', at: [15.5, -12.6] },
+    { type: 'cone', frame: 'compound', at: [-2.5, -10.5], rot: 20 }, { type: 'cone', frame: 'compound', at: [-1.8, -12.2], rot: 70, tilt: 85, seat: false, lift: 0.18 },
+    { type: 'jersey_barrier', frame: 'compound', at: [-27, -33], rot: 12 }, { type: 'jersey_barrier', frame: 'compound', at: [-27.5, -36.5], rot: -8 },
+    { type: 'shrine', at: [-2, 51], face: 'spine' },
+    { type: 'billboard', at: [-36, -82], face: 'spine', torn: true },
+    { type: 'rubble', at: [-44, -22], size: 2, color: 0xaaa498 },
+    { type: 'km_marker', at: [-25, -50], face: 'spine' },
+  ],
+
+  scatter: [
+    { type: 'car_wreck', along: 'spine', count: 4, offset: [0.5, 9], vary: { burned: 0.3, wheels: 0.3 } },
+    { type: 'utility_pole', along: 'spine', every: 34, offset: 7, side: 1, wires: true, fallen: 0.15 },
+  ],
+
+  vegetation: {
+    density: 0.5,
+    plants: [
+      { species: 'fan_palm', frame: 'compound', at: [-19, -7] }, { species: 'fan_palm', frame: 'compound', at: [8, -34], scale: 0.9 },
+      { species: 'pepper_tree', frame: 'compound', at: [11, -11] }, { species: 'pepper_tree', frame: 'compound', at: [45, -14], scale: 0.9 },
+      { species: 'nopal', frame: 'compound', at: [16, 37] }, { species: 'nopal', frame: 'compound', at: [22, 37.5] }, { species: 'nopal', frame: 'compound', at: [28, 37] },
+    ],
+    groves: [{ at: [60, 50], radius: 14, species: { mesquite: 3, palo_verde: 1 }, count: 6 }],
+  },
+};

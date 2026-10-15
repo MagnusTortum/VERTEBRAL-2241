@@ -1,0 +1,12 @@
+# raw asset packs (the app uses the packed models/ and textures/)
+/assets/*
+!/assets/audio/
+/assets/audio/_steps/
+/_update/
+node_modules/
+.DS_Store
+# test scripts
+/z*.mjs
+/edtest*.mjs
+/shot*.mjs
+/web-audio.tar

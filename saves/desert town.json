@@ -1,0 +1,310 @@
+{
+ "name": "New place",
+ "seed": "p91opr",
+ "size": [
+  500,
+  500
+ ],
+ "biome": "desert",
+ "builder": true,
+ "description": "Built with the map builder.",
+ "terrain": {
+  "relief": 1.2,
+  "scale": 120,
+  "cell": 1.67,
+  "features": [
+   {
+    "type": "hill",
+    "at": [
+     -155.9907701681368,
+     -109.98414399800822
+    ],
+    "radius": 48.45659248880111,
+    "height": 8.169725977582857
+   },
+   {
+    "type": "hill",
+    "at": [
+     -74.08472103998065,
+     181.93360433215275
+    ],
+    "radius": 46.99427563464269,
+    "height": 3.948420888511464
+   },
+   {
+    "type": "hill",
+    "at": [
+     -166.77692346274853,
+     -213.979948440101
+    ],
+    "radius": 90.64600017329212,
+    "height": 2.536202425369993
+   },
+   {
+    "type": "arroyo",
+    "path": [
+     [
+      -300,
+      -145.6
+     ],
+     [
+      -150,
+      -107.9
+     ],
+     [
+      0,
+      -92.4
+     ],
+     [
+      150,
+      -117.1
+     ],
+     [
+      300,
+      -120.9
+     ]
+    ],
+    "width": 12.475082650315017,
+    "depth": 1.7191954259295015
+   },
+   {
+    "type": "tilt",
+    "dir": 251,
+    "amount": 0.46
+   }
+  ]
+ },
+ "vegetation": {
+  "density": 0.1,
+  "plants": [
+   {
+    "species": "cholla",
+    "at": [
+     -45.86,
+     -44.38
+    ],
+    "scale": 1.23,
+    "rot": 28
+   },
+   {
+    "species": "cholla",
+    "at": [
+     62.41,
+     -1.79
+    ],
+    "scale": 1.04,
+    "rot": 223
+   },
+   {
+    "species": "grass",
+    "at": [
+     155.3,
+     47.52
+    ],
+    "scale": 1.08,
+    "rot": 35
+   }
+  ],
+  "erase": [
+   {
+    "at": [
+     -124.27,
+     -41.43
+    ],
+    "r": 0.35
+   },
+   {
+    "at": [
+     -11.91,
+     -24.57
+    ],
+    "r": 0.35
+   },
+   {
+    "at": [
+     177.21,
+     52.89
+    ],
+    "r": 0.35
+   }
+  ]
+ },
+ "structures": [],
+ "props": [],
+ "roads": [
+  {
+   "id": "road-mv6kcmkfks",
+   "type": "highway",
+   "width": 15,
+   "path": [
+    [
+     -250,
+     54.5
+    ],
+    [
+     -151.6,
+     43.92
+    ],
+    [
+     -57.94,
+     32.19
+    ],
+    [
+     28.19,
+     19.73
+    ],
+    [
+     112.53,
+     5.71
+    ],
+    [
+     250,
+     -6.17
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.46,
+   "lines": true
+  },
+  {
+   "id": "road-mv6kdusiw8",
+   "type": "paved",
+   "width": 8,
+   "path": [
+    [
+     -31.33,
+     28.53
+    ],
+    [
+     -22.35,
+     60.74
+    ],
+    [
+     -12.99,
+     98.73
+    ],
+    [
+     -2.67,
+     146.35
+    ],
+    [
+     7.83,
+     201.85
+    ],
+    [
+     20.11,
+     250
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.5
+  },
+  {
+   "id": "road-mv6ke11ijp",
+   "type": "gravel",
+   "width": 9.5,
+   "path": [
+    [
+     -5.27,
+     133.75
+    ],
+    [
+     116.93,
+     103.83
+    ],
+    [
+     174.39,
+     89.08
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.66
+  },
+  {
+   "id": "road-mv6ke53hih",
+   "type": "gravel",
+   "width": 10,
+   "path": [
+    [
+     174.39,
+     89.08
+    ],
+    [
+     250,
+     70.75
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.65
+  },
+  {
+   "id": "road-mv6ke75bw3",
+   "type": "gravel",
+   "width": 8,
+   "path": [
+    [
+     139.78,
+     98.07
+    ],
+    [
+     128,
+     4.04
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.65
+  },
+  {
+   "id": "road-mv6ke9kvcf",
+   "type": "gravel",
+   "width": 5.5,
+   "path": [
+    [
+     200.43,
+     -2.14
+    ],
+    [
+     210.39,
+     80.35
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.65
+  },
+  {
+   "id": "road-mv6kfbwkxu",
+   "type": "gravel",
+   "width": 7,
+   "path": [
+    [
+     56.77,
+     14.65
+    ],
+    [
+     70.35,
+     115.29
+    ]
+   ],
+   "smooth": true,
+   "era": "postwar",
+   "condition": 0.65
+  }
+ ],
+ "walls": [],
+ "fields": [],
+ "paint": [],
+ "view": {
+  "target": [
+   0,
+   0
+  ],
+  "zoom": 1,
+  "az": -32
+ }
+}

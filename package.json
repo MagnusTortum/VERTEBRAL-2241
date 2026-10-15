@@ -1,0 +1,17 @@
+{
+  "name": "baja-mapgen",
+  "version": "1.0.0",
+  "description": "Procedural 2.5D isometric place generator for Fallout Baja",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.186.1",
+    "esbuild": "^0.28.2"
+  },
+  "type": "module"
+}
